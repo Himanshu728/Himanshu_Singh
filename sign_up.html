@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_Up_Page</title>
+    <style>
+        body
+        {
+            background-color: aliceblue;
+        }
+        .header
+        {
+            /* border: 2px solid red; */
+            margin: 15px;
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .body
+        {
+            /* border: 2px solid black; */
+            margin: 15px;
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer
+        {
+            position: fixed;
+            bottom: 5px;
+            left: 42%;
+
+            /* border: 2px solid black; */
+            margin: 15px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sign Up Page</h1>
+    </div>
+    <div class="body">
+        <form action="sign_up.php" method="POST">
+            NAME <input type="text" name="name"><br><br>
+            ROLL <input type="number" name="roll"><br><br>
+            CGPA <input type="number" name="cgpa"><br><br>
+            YEAR <input type="number" name="year"><br><br>
+            <input type="submit"><br>
+        </form>
+    </div>
+    <div class="footer">
+        <h1>ASSIGNMENT 5</h1>
+    </div>
+</body>
+</html>
