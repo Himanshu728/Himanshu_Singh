@@ -9,6 +9,15 @@
         {
             background-color: aliceblue;
         }
+
+        .header_img
+        {
+            width: 20px;
+            height: 20px;
+
+            animation-name: op;
+            animation-duration: 8s;
+        }
         .header
         {
             /* border: 2px solid red; */
@@ -16,8 +25,8 @@
 
             display: flex;
             flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: space-between;
+            flex-direction: row;
+            justify-content: space-around;
             align-items: center;
         }
 
@@ -48,11 +57,17 @@
             justify-content: space-between;
             align-items: center;
         }
+
+        @keyframes
+        {
+            0% {opacity: 0%};
+            100% {opacity: 100%;}
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="https://himanshu728.z29.web.core.windows.net/azure.png">
+        <img src="https://himanshu728.z29.web.core.windows.net/azure.png" class="header_img">
         <h1>
             Student Login
         </h1>
