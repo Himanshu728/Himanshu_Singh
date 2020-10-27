@@ -11,8 +11,8 @@
         $roll = $_GET["roll"];
 
         //the required parameter for mysql server connection
-        $server = "himanshusinghdbserver.mysql.database.azure.com";
-        $username = "Himanshu_Singh@himanshusinghdbserver";
+        $server = "hsdbserver.mysql.database.azure.com";
+        $username = "Himanshu_Singh@hsdbserver";
         $password = "King@1234";
         $database = "student";
 
